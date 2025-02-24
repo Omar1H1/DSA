@@ -30,11 +30,13 @@
 
 **Avant le** `DELETE FROM` 
 
-| id  | prenom | nom    |
-| --- | ------ | ------ |
-| 1   | Max    | Planck |
-| 2   | Marie  | Curie  |
+| id  | prenom | nom    |     |
+| --- | ------ | ------ | --- |
+| 1   | Max    | Planck |     |
+| 2   | Marie  | Curie  |     |
+
 **Apres le** `DELETE FROM`
+
 
 | id  | prenom | nom   |
 | --- | ------ | ----- |
