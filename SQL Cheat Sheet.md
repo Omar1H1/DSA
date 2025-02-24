@@ -133,7 +133,10 @@ Example :
 | 3   | Se7en          | drama  | 1995 | 8.6         |
 | 4   | The Avengers   | action | 2012 | 8.1         |
 | 5   | Seven          | drama  | 1979 | 6.1         |
+
+
 Ici, nous avons deux films : `Seven` de Andy Sidaris  et `Se7en` de David Fincher. On remarque qu'il n'y a qu'un seul caractère de différence entre les deux noms. Peut-on trouver les films qui commencent par `Se` et se terminent par `en`, avec un seul caractère entre les deux ?
+
 
 
 ```sql
@@ -141,6 +144,8 @@ SELECT *
 FROM movies
 WHERE name LIKE 'Se_en';
 ```
+
+
 
 Dans cette requête, le caractère _ est utilisé comme un `wildcard`. En français, on peut dire : "Trouve-moi le film dont le nom correspond à ces critères :
 
@@ -174,8 +179,12 @@ FROM movies
 WHERE name LIKE '%man%';
 ```
 
+
+
 > [!info]
 > `LIKE` n'est pas sensible à la casse, on aura `Batman` et `Man of Steel` les deux sont valides
+
+
 
 
 > [!question] Combien de wildcards avons-nous vus jusqu'à présent ?
