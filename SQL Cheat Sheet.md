@@ -181,7 +181,7 @@ WHERE name LIKE '%man%';
 
 
 
-> [!info]
+> [!TIP]
 > `LIKE` n'est pas sensible à la casse, on aura `Batman` et `Man of Steel` les deux sont valides
 
 
